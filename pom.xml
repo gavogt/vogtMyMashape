@@ -8,7 +8,6 @@
     <artifactId>myArtifact</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
     <dependencies>
         <dependency>
             <groupId>com.mashape.unirest</groupId>
@@ -36,5 +35,4 @@
             <version>20140107</version>
         </dependency>
     </dependencies>
-
 </project>
