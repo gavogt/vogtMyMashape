@@ -39,5 +39,4 @@ public class Program {
         System.out.println(response.getBody().getObject().getString("result"));
 
     }
-
 }
