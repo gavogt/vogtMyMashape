@@ -32,7 +32,7 @@ public class Program {
 
 // These code snippets use an open-source library. http://unirest.io/java
         HttpResponse<JsonNode> response = Unirest.get(String.format("https://love-calculator.p.mashape.com/getPercentage?fname=%s&sname=%s", hisName, herName))
-                .header("X-Mashape-Key", "aKavsnaT9BmshmnSeVvrEfBLmGKGp109ZhzjsnKiINiiKqko2Y")
+                .header("X-Mashape-Key", "aKavsnaT9BmdhmnSeVvrEfBLmGKGp3109ZhzjsnKiINi11iKqko2Y")
                 .header("Accept", "application/json")
                 .asJson();
 
